@@ -1,7 +1,7 @@
 import { isValid, createModal } from "./utils";
 import { Question } from "./question";
 import { getAuthForm, authWithEmailAndPassword } from "./auth";
-import "./styles.css";
+import "../css/styles.css";
 
 const form = document.getElementById("form");
 const input = form.querySelector("#question-input");
